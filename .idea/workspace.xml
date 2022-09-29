@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="741879de-c264-4932-b1d0-75d6d90802d6" name="Changes" comment="Add output.png" />
+    <list default="true" id="741879de-c264-4932-b1d0-75d6d90802d6" name="Changes" comment="Add output.png">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +26,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
@@ -35,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664412467347</updated>
-      <workItem from="1664412469251" duration="778000" />
+      <workItem from="1664412469251" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1664412531172</created>
