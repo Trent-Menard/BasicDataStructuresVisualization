@@ -13,8 +13,9 @@ public class Main {
         insertion/deletion b/c of Integer's natural ordering (assuming ascending).*/
 
 /*      Array: The most basic data structure; stores memory contiguously.
-        Index based allows for quick direct access. O(n).
-        Not scalable though. Size must be initially declared.*/
+        Index based allows for quick direct access.
+        Not scalable though. Size must be initially declared.
+        Access: O(1), Search/Insertion/Deletion: O(n)*/
         Integer[] arrayDS = new Integer[CAPACITY];
 
 /*      LinkedList: A list that "points to" or is "linked" to another List.
@@ -22,7 +23,8 @@ public class Main {
         loose direct access to elements. Can expand/contract easily O(n).
         (Note: 'List' is an interface, NOT a class. LinkedList<> defines
         the type of class/object. LinkedList CAN be used in place of
-        'List' but using it allows easier code integration, should the data structure need changing)*/
+        'List' but using it allows easier code integration, should the data structure need changing)
+        Access, Search: O(n), Insertion/Deletion: O(1)*/
         List<Integer> listDS = new LinkedList<>();
 
 /*      Dequeue, short for double ended queue, is an interface
@@ -30,11 +32,13 @@ public class Main {
         I.e.: it can act as either a Stack or Queue.*/
 
 /*      Queue: A First-In-First-Out sequence of data elements.
-        Items can only be removed from the front (dequeue) and added to the back (enqueue).*/
+        Items can only be removed from the front (dequeue) and added to the back (enqueue).
+        Access, Search: O(n), Insertion/Deletion: O(1)*/
         Deque<Integer> stackDS = new ArrayDeque<>();
 
 /*      Stack: A Last-In-First-Out sequence of data elements.
-        Items can only be added to the top and removed from the top.*/
+        Items can only be added to the top and removed from the top.
+        Access, Search: O(n), Insertion/Deletion: O(1)*/
         Deque<Integer> queueDS = new ArrayDeque<>();
 
         // Fill each data structure w/ vales from 1 to 10 then print values
